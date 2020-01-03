@@ -8,3 +8,10 @@
    The code is located in AIM-Lab-Automation/Backgrounds.ipynb. </br>
    
 3. When these are done, we have to run the experiment to fillup initial G/D ratios of those random datasets. The code is     located in AIM-Lab-Automation/main program.ipynb.
+
+
+# Stage 2
+1. Now comes second stage of the experiment. Now, the csv file created from initial experiment.ipynb is populated with each configurations having G/D ratios. Now they are fed to the R code. R code predicts a new parameter configuration, which is saved in the same csv file. The code reads the csv file again, conducts experiment, finds G/D ration, then again R code reads the file and thus the close loop experiment takes place. </br>
+The code is located in AIM-Lab-Automation/main program.ipynb. </br>
+
+2. The R code is located in AIM-Lab-Automation/R Python interface.ipynb (though it's already in the main program.ipynb.
