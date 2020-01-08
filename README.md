@@ -1,6 +1,6 @@
 # AIM-Lab-Automation
 
-#Current Challenges
+**Current Challenges**
 
 1. Find the exact coordinates of GO(Graphene Oxide), Quartz, Kapton.
 2. Calibrate the Laser power and monitor if patterning is done properly or not.
