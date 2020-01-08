@@ -1,5 +1,12 @@
 # AIM-Lab-Automation
 
+#Current Challenges
+
+1. Find the exact coordinates of GO(Graphene Oxide), Quartz, Kapton.
+2. Calibrate the Laser power and monitor if patterning is done properly or not.
+3. Run experiments on many points of a sample to monitor time-out issues from ESP 300 (motion controller) and solve them if it shows up.
+
+
 # Stage 1
 1. Populate Data on a csv file with random data. The csv file contains 4 Features: Laser Power, Laser Exposure Time, Pressure      and Gas. Each of the 4 features have some ranges except the discrete feature Gas. </br>
    The file is located in AIM-Lab-Automation/initial experiment.ipynb. </br>
