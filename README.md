@@ -2,11 +2,23 @@
 
 **Current Challenges**
 
+**Current Challenge**
+
 1. Find the exact coordinates of GO(Graphene Oxide), Quartz, Kapton.
-2. Calibrate the Laser power and monitor if patterning is done properly or not.
+    
+        GO Coordinates : (3,3)--->(9,9), step size .5, .5. It worked well.
+        Kapton Coordinates: under research.
+        Quartz: under research.
+     
+2. Calibrate the Laser power and monitor if patterning is done properly or not. (Solved).
+
+        laser_power.power=((power_in_csv_file-2.7979)/0.4639)/1000
+        This equation is used to calibrate the laser power, because the machine LightHouse Photonics doesn't exactly delivers the power         which it shows up in it's display. Some power loss occurs during propagation.
+        
 3. Run experiments on many points of a sample to monitor time-out issues from ESP 300 (motion controller) and solve them if it shows up.
-
-
+ (Time out issues solved)
+ 
+ 
 # Stage 1
 1. Populate Data on a csv file with random data. The csv file contains 4 Features: Laser Power, Laser Exposure Time, Pressure      and Gas. Each of the 4 features have some ranges except the discrete feature Gas. </br>
    The file is located in AIM-Lab-Automation/initial experiment.ipynb. </br>
