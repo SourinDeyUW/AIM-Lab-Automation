@@ -2,7 +2,7 @@
 
 **Current Challenges**
 
-1. Distinguish between good & bad material. 
+1. Distinguish between good & bad GO samples. 
 2. Figure out bad parameter configuration.
 
 
