@@ -2,7 +2,11 @@
 
 **Current Challenges**
 
-**Current Challenge**
+1. Distinguish between good & bad material. 
+2. Figure out bad parameter configuration.
+
+
+**Past Challenge**
 
 1. Find the exact coordinates of GO(Graphene Oxide), Quartz, Kapton.
     
