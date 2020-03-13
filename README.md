@@ -1,5 +1,5 @@
 # AIM-Lab-Automation
-In the Artificially Intelligent Manufacturing (AIM) center, We are producing Graphene from Graphene Oxide with laser patterning mechanism powered by Artificial Intelligence (AI). To get the best parameter configuration we use Bayesian Optimization(BO) as sequential Model Based Optimization(sMBO). 
+In the Artificially Intelligent Manufacturing (AIM) center, we are producing Graphene from Graphene Oxide with laser patterning mechanism powered by Artificial Intelligence (AI). To get the best parameter configuration we use Bayesian Optimization(BO) as sequential Model Based Optimization(sMBO). 
 
 I'm assigned with the task of making a closed loop autonomous system for the manufacturing. I'm using R to utilize the BO with mlrMBO package, for the automation works, I'm using python. The codes are inside > updated codes folder.
 
