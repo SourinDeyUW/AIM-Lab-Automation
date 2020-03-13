@@ -28,7 +28,7 @@ I'm assigned with the task of making a closed loop autonomous system for the man
  
  
  
-**Work Flow**
+# Work Flow
  
 # Stage 1
 1. Populate Data on a csv file with random data. The csv file contains 4 Features: Laser Power, Laser Exposure Time, Pressure      and Gas. Each of the 4 features have some ranges except the discrete feature Gas. </br>
