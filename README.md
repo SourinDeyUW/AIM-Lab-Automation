@@ -1,8 +1,16 @@
 # AIM-Lab-Automation
+In the Artificially Intelligent Manufacturing (AIM) center, we are producing Graphene from Graphene Oxide with laser patterning mechanism powered by Artificial Intelligence (AI). To get the best parameter configuration we use Bayesian Optimization(BO) as sequential Model Based Optimization(sMBO). 
+
+I'm assigned with the task of making a closed loop autonomous system for the manufacturing. I'm using R to utilize the BO with mlrMBO package. For the automation works, I'm using python. The codes are inside > updated codes folder.
+
 
 **Current Challenges**
 
-**Current Challenge**
+1. Distinguish between good & bad GO samples. 
+2. Figure out bad parameter configuration.
+
+
+**Past Challenge**
 
 1. Find the exact coordinates of GO(Graphene Oxide), Quartz, Kapton.
     
@@ -19,18 +27,22 @@
  (Time out issues solved)
  
  
-# Stage 1
+ 
+ 
+# Work Flow
+ 
+**Stage 1** 
 1. Populate Data on a csv file with random data. The csv file contains 4 Features: Laser Power, Laser Exposure Time, Pressure      and Gas. Each of the 4 features have some ranges except the discrete feature Gas. </br>
    The file is located in AIM-Lab-Automation/initial experiment.ipynb. </br>
    
 2. Initially 2 background pictures should be taken: background 1D at 1500 wavenumber and another background at 2700 wavenumber.
-   The code is located in AIM-Lab-Automation/Backgrounds.ipynb. </br>
+   The code is located in AIM-Lab-Automation/updated codes/Backgrounds.ipynb. </br>
    
-3. When these are done, we have to run the experiment to fillup initial G/D ratios of those random datasets. The code is     located in AIM-Lab-Automation/main program.ipynb.
+3. When these are done, we have to run the experiment to fillup initial G/D ratios of those random datasets. The code is     located in AIM-Lab-Automation/updated codes/main program.ipynb.
 
 
-# Stage 2
-1. Now comes second stage of the experiment. Now, the csv file created from initial experiment.ipynb is populated with each configurations having G/D ratios. Now they are fed to the R code. R code predicts a new parameter configuration, which is saved in the same csv file. The code reads the csv file again, conducts experiment, finds G/D ration, then again R code reads the file and thus the close loop experiment takes place. </br>
-The code is located in AIM-Lab-Automation/main program.ipynb. </br>
+**Stage 2**
+1. Now comes second stage of the experiment. Now, the csv file created from initial experiment.ipynb is populated with each configurations having G/D ratios. They are fed to the R code. R code predicts a new parameter configuration, which is saved in the same csv file. The code reads the csv file again, conducts experiment, finds G/D ratio, then again R code reads the file and thus the close loop experiment takes place. </br>
+The code is located in AIM-Lab-Automation/updated codes/main program.ipynb. </br>
 
-2. The R code is located in AIM-Lab-Automation/R Python interface.ipynb (though it's already in the main program.ipynb).
+2. The R code is located in AIM-Lab-Automation/updated codes/R Python interface.ipynb (though it's already in the main program.ipynb).
