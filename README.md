@@ -4,11 +4,9 @@ In the Artificially Intelligent Manufacturing (AIM) center, we are producing Gra
 I'm assigned with the task of making a closed loop autonomous system for the manufacturing. I'm using R to utilize the BO with mlrMBO package. For the automation works, I'm using python. The codes are inside > updated codes folder. and the main coide is in AIM-Lab-Automation/updated codes/main program .ipynb.
 
 
-**Current Challenges**
+**Coordinates**
 
-1. Distinguish between good & bad GO samples. 
-2. Figure out bad parameter configuration.
-
+(4,3)-->(10,10). Step=1
 
 **Past Challenge**
 
