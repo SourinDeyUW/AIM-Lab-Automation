@@ -5,7 +5,7 @@ I'm assigned with the task of making a closed loop autonomous system for the man
 
 
 
-![Alt Text](https://github.com/SourinDeyUW/AIM-Lab-Automation/blob/master/graphene%20spots%20and%20raman%20spectra.gif width="128")
+![Alt Text](https://user-images.githubusercontent.com/55370267/99120577-52e6ce00-25b8-11eb-8934-aa80489b6a42.png)
 
 **Coordinates**
 
