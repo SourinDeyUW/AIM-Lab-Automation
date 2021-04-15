@@ -765,8 +765,9 @@ def ration(a,b,i,line,iii):
         df3.loc[a[0],'ratio']=0
         df3.to_csv('dataset.csv',index=False)
     
-    elif mean(d1[d1['W']<1255]['I_base']) > 0.7*mean(d1[(d1['W']>1340) & (d1['W']<1350)]['I_base'])\
-        or mean(d1[(d1['W']>1400) & (d1['W']<1550)]['I_base']) > 0.7*mean(d1[(d1['W']>1340) & (d1['W']<1350)]['I_base']):
+    
+    elif np.mean(d1[d1['W']<1255]['I_base']) > 0.7*np.mean(d1[(d1['W']>1340) & (d1['W']<1350)]['I_base'])\
+        or np.mean(d1[(d1['W']>1400) & (d1['W']<1550)]['I_base']) > 0.7*np.mean(d1[(d1['W']>1340) & (d1['W']<1350)]['I_base']):
         print("patterning not done")
     
     else:
